@@ -1,6 +1,7 @@
 # aws-vpc
 The goal of this project is to create a VPC and AWS instance using Terraform .
 User needs to create his/her own terraform.tfvars file where need to declare the below field:
+    
     aws_access_key_id = "" 
     aws_secret_access_key = "" 
     aws_region = "" 
