@@ -3,7 +3,6 @@ resource "aws_key_pair" "default" {
    public_key = var.public_key
 }
 
-
 resource "aws_instance" "terraform-instance" {
   ami           = "ami-0de9f803fcac87f46"
   instance_type = "t2.micro"
